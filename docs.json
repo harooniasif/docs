@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "BrandRadar",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6B4EFF",
+    "light": "#8F6CFF",
+    "dark": "#4328B9"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,55 +14,77 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "account-setup"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Platform Basics",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "platform/overview",
+              "platform/navigation",
+              "platform/workflows"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Customizing BrandRadar",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "customization/settings",
+              "customization/notifications",
+              "customization/team"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Analytics",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Core Metrics",
             "pages": [
-              "api-reference/introduction"
+              "analytics/visibility-score",
+              "analytics/sentiment-score",
+              "analytics/prompt-score"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Tracking & Reports",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "analytics/brand-comparison",
+              "analytics/historical-trends",
+              "analytics/exporting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "api/introduction",
+              "api/authentication"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api/endpoints/brands",
+              "api/endpoints/mentions",
+              "api/endpoints/sentiment",
+              "api/endpoints/reports"
+            ]
+          },
+          {
+            "group": "Webhooks",
+            "pages": [
+              "api/webhooks/overview",
+              "api/webhooks/new-mention",
+              "api/webhooks/report-ready"
             ]
           }
         ]
@@ -72,56 +94,53 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://docs.brandradar.ai",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://community.brandradar.ai",
           "icon": "slack"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://brandradar.ai/blog",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/brandradar-light.svg",
+    "dark": "/logo/brandradar-dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@brandradar.ai"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.brandradar.ai"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/brandradar",
+      "github": "https://github.com/brandradar",
+      "linkedin": "https://linkedin.com/company/brandradar"
     }
   }
 }
