@@ -47,26 +47,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.brandradar.ai",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://community.brandradar.ai",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://brandradar.ai/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.png",
