@@ -1,44 +1,130 @@
-# Mintlify Starter Kit
+# BrandRadar.ai Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Welcome to the official documentation for BrandRadar.ai, the premier platform for tracking your brand's visibility, sentiment, and citations across leading AI platforms including OpenAI, Gemini, and Perplexity.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## About BrandRadar.ai
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+BrandRadar.ai provides enterprise teams with deep visibility into how AI-powered platforms rank, frame, and cite your brand, enabling precise actions based on data. Our comprehensive suite of tools helps you:
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+- **Monitor Brand Presence**: Track your brand across OpenAI, Gemini, and Perplexity
+- **Analyze Sentiment**: Understand how AI platforms perceive your brand
+- **Map Citations**: Track how your brand is referenced and attributed
+- **Benchmark Competitors**: Compare performance against industry leaders
+- **Optimize Strategy**: Make data-driven decisions to improve brand visibility
+
+## Documentation Structure
+
+This documentation is organized into three main sections:
+
+### 📚 Guides
+- **Getting Started**: Quick start guide and account setup
+- **Platform Basics**: Platform overview, navigation, and workflows
+- **Customization**: Settings, notifications, and team management
+
+### 📊 Analytics
+- **Core Metrics**: Visibility scores, sentiment analysis, and prompt scoring
+- **Tracking & Reports**: Brand comparison, historical trends, and data export
+
+### 🔌 API Reference
+- **Introduction**: API overview and authentication
+- **Endpoints**: Brand management, mentions, sentiment, and reporting
+- **Webhooks**: Real-time notifications and event handling
+
+## Quick Start
+
+1. **Visit [app.brandradar.ai](https://app.brandradar.ai)** to create your account
+2. **Follow the [Quickstart Guide](quickstart)** to set up brand monitoring
+3. **Configure your brand profile** and add competitors
+4. **Set up monitoring workflows** for automated tracking
+5. **Explore analytics** to understand your brand's AI presence
+
+## Key Features
+
+### Multi-Platform Monitoring
+- **OpenAI Integration**: Monitor ChatGPT and GPT-4 interactions
+- **Google Gemini**: Track brand presence in Google's AI ecosystem
+- **Perplexity AI**: Monitor AI-powered search results and research
+
+### Advanced Analytics
+- **Real-time Monitoring**: Live tracking of brand mentions and sentiment
+- **Competitive Intelligence**: Benchmark against competitors
+- **Historical Trends**: Long-term performance analysis
+- **Custom Reports**: Automated reporting and data export
+
+### Workflow Automation
+- **Automated Monitoring**: 24/7 brand tracking across platforms
+- **Smart Alerts**: Intelligent notifications based on your preferences
+- **Integration Support**: Connect with your existing tools and workflows
 
 ## Development
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+### Local Development
 
-```
+To run this documentation locally:
+
+```bash
+# Install Mintlify CLI
 npm i -g mint
-```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+# Clone the repository
+git clone https://github.com/brandradar/docs.git
+cd docs
 
-```
+# Start local development server
 mint dev
 ```
 
 View your local preview at `http://localhost:3000`.
 
-## Publishing changes
+### Contributing
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+We welcome contributions to improve our documentation:
 
-## Need help?
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-### Troubleshooting
+## API Access
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+BrandRadar.ai provides a comprehensive REST API for developers:
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
-- [Mintlify community](https://mintlify.com/community)
+- **API Documentation**: [docs.brandradar.ai/api](https://docs.brandradar.ai/api)
+- **Developer Portal**: [developers.brandradar.ai](https://developers.brandradar.ai)
+- **Code Examples**: [github.com/brandradar/api-examples](https://github.com/brandradar/api-examples)
+
+## Support & Resources
+
+### Getting Help
+- **Documentation**: [docs.brandradar.ai](https://docs.brandradar.ai)
+- **Support Email**: [support@brandradar.ai](mailto:support@brandradar.ai)
+- **Community Forum**: [community.brandradar.ai](https://community.brandradar.ai)
+- **Video Tutorials**: [brandradar.ai/tutorials](https://brandradar.ai/tutorials)
+
+### Additional Resources
+- **Blog**: [brandradar.ai/blog](https://brandradar.ai/blog)
+- **Case Studies**: [brandradar.ai/case-studies](https://brandradar.ai/case-studies)
+- **Webinars**: [brandradar.ai/webinars](https://brandradar.ai/webinars)
+- **API Status**: [status.brandradar.ai](https://status.brandradar.ai)
+
+## Pricing & Plans
+
+BrandRadar.ai offers flexible pricing plans to meet your needs:
+
+- **Free Plan**: Basic monitoring for small brands
+- **Pro Plan**: Advanced analytics and competitor tracking
+- **Enterprise Plan**: Full platform access with custom integrations
+
+[View Pricing Details](https://brandradar.ai/pricing)
+
+## Legal
+
+- **Privacy Policy**: [brandradar.ai/privacy](https://brandradar.ai/privacy)
+- **Terms of Service**: [brandradar.ai/terms](https://brandradar.ai/terms)
+- **Data Processing**: [brandradar.ai/data-processing](https://brandradar.ai/data-processing)
+
+---
+
+**BrandRadar.ai** - Empowering brands to thrive in the AI era.
+
+[Get Started](https://app.brandradar.ai) | [Request Demo](https://brandradar.ai/demo) | [Contact Sales](mailto:sales@brandradar.ai)
