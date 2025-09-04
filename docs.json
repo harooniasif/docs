@@ -42,6 +42,7 @@
           {
             "group": "Customizing BrandRadar",
             "pages": [
+              "customization/plans",
               "customization/settings"
             ]
           }
