@@ -9,43 +9,28 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Getting Started",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "account-setup"
-            ]
-          }
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart",
+          "account-setup"
         ]
       },
       {
-        "tab": "Platform Basics",
-        "groups": [
-          {
-            "group": "Platform Basics",
-            "pages": [
-              "platform/create-topics",
-              "platform/navigation",
-              "platform/understanding-data"
-            ]
-          }
+        "group": "Platform Basics",
+        "pages": [
+          "platform/create-topics",
+          "platform/navigation",
+          "platform/understanding-data"
         ]
       },
       {
-        "tab": "Customizing BrandRadar",
-        "groups": [
-          {
-            "group": "Customizing BrandRadar",
-            "pages": [
-              "customization/plans",
-              "customization/settings"
-            ]
-          }
+        "group": "Customizing BrandRadar",
+        "pages": [
+          "customization/plans",
+          "customization/settings"
         ]
       }
     ]
@@ -78,9 +63,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/brandradar",
-      "github": "https://github.com/brandradar",
-      "linkedin": "https://linkedin.com/company/brandradar"
+      "x": "https://x.com/brandradar_ai",
+      "instagram": "https://www.instagram.com/brandradar.ai/",
+      "facebook": "https://www.facebook.com/BrandRadarAI",
+      "linkedin": "https://www.linkedin.com/company/brand-radar-ai/"
     }
   }
 }
