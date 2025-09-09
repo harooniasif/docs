@@ -30,6 +30,7 @@
         "group": "Customizing BrandRadar",
         "pages": [
           "customization/plans",
+          "customization/geo-as-a-service",
           "customization/settings"
         ]
       }
