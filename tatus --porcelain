@@ -1,1 +1,106 @@
 [33m1ad4cec[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Initial commit
+[1mdiff --git a/account-setup.mdx b/account-setup.mdx[m
+[1mindex 5c71f74..2a7d5a4 100644[m
+[1m--- a/account-setup.mdx[m
+[1m+++ b/account-setup.mdx[m
+[36m@@ -1,71 +1,112 @@[m
+ ---[m
+ title: "Brand Setup"[m
+[31m-description: "Complete guide to setting up your brand details and competitor management in BrandRadar"[m
+[32m+[m[32mdescription: "Guide to brand and competitor configuration: understand why accurate setup drives meaningful brand intelligence"[m
+ ---[m
+ [m
+[31m-# Brand Setup and Competitor Management[m
+[32m+[m[32m# Brand and Competitor Configuration[m
+ [m
+[31m-BrandRadar's insights depend on accurate brand and competitor information. Proper setup ensures the AI correctly identifies your brand mentions and filters out competitor noise. You can create new brands through the dashboard or edit existing settings under **Data builder → Brand details** and **Competitor details**.[m
+[32m+[m[32mBrandRadar's insights depend on how well the AI understands your brand's identity and competitive landscape. This isn't just data entry - it's teaching the system to recognize your brand and distinguish between signals that matter to your business and noise that doesn't.[m
+[32m+[m
+[32m+[m[32m## Why Configuration Matters[m
+[32m+[m
+[32m+[m[32mThe AI models that power BrandRadar need to understand your brand's context to provide meaningful insights. Without proper configuration, you'll get generic data rather than intelligence. The difference between a well-configured brand and a poorly configured one is the difference between actionable insights and irrelevant noise.[m
+[32m+[m
+[32m+[m[32m**Benefits of proper setup:**[m
+[32m+[m[32m- **Precise brand recognition** across different contexts and spellings[m
+[32m+[m[32m- **Competitive intelligence** that filters out competitor noise[m
+[32m+[m[32m- **Market context** that focuses on your operational regions[m
+[32m+[m[32m- **Positioning** that aligns monitoring with your business model[m
+ [m
+ <Info>[m
+[31m-**Why This Matters:** Accurate brand and competitor setup is crucial for getting relevant insights. The AI uses this information to distinguish between your brand mentions and competitor activity.[m
+[32m+[m[32m**Foundation:** Your brand and competitor configuration is the foundation of all BrandRadar insights. The AI uses this information to distinguish between your brand mentions and competitor activity, understand your market context, and generate relevant monitoring suggestions.[m
+ </Info>[m
+ [m
+[31m-## Brand Creation Flow[m
+[32m+[m[32m## Brand Creation Process[m
+ [m
+ After login, the platform displays a dashboard listing all brands in your company. Each brand card shows the brand's logo, description, brand visibility score gauge, number of prompts collected, and last update date.[m
+ [m
+[32m+[m[32m**Why the dashboard matters:** This multi-brand view enables portfolio management. You can compare how different brands in your portfolio perform across AI platforms, identify cross-brand opportunities, and allocate monitoring resources effectively.[m
+[32m+[m
+[32m+[m[32m<div style={{position: 'relative', paddingBottom: 'calc(47.46527777777778% + 41px)', height: 0, width: '100%'}}>[m
+[32m+[m[32m  <iframe[m[41m [m
+[32m+[m[32m    src="https://demo.arcade.software/Cq2dWWg7mnyIruRTezvz?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true"[m[41m [m
+[32m+[m[32m    title="Set Up a New Brand Profile in BrandRadar"[m[41m [m
+[32m+[m[32m    frameBorder="0"[m[41m [m
+[32m+[m[32m    loading="lazy"[m[41m [m
+[32m+[m[32m    webkitAllowFullScreen[m[41m [m
+[32m+[m[32m    mozAllowFullScreen[m[41m [m
+[32m+[m[32m    allowFullScreen[m[41m [m
+[32m+[m[32m    allow="clipboard-write"[m[41m [m
+[32m+[m[32m    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', colorScheme: 'light'}}[m
+[32m+[m[32m  />[m
+[32m+[m[32m</div>[m
+[32m+[m
+ <Steps>[m
+   <Step title="Access Brand Dashboard">[m
+[31m-    After logging in, you'll see the main dashboard with all your company's brands displayed as cards.[m
+[32m+[m[32m    After logging in, you'll see the main dashboard with all your company's brands displayed as cards. This portfolio view helps you understand your multi-brand approach at a glance.[m
+   </Step>[m
+   <Step title="Create New Brand">[m
+[31m-    Click the "Create a new brand" card to begin the brand creation process.[m
+[32m+[m[32m    Click the "Create a new brand" card to begin the brand creation process. Each new brand represents a monitoring framework tailored to that brand's unique position.[m
+   </Step>[m
+[31m-  <Step title="Step 1: Basic Brand Information">[m
+[32m+[m[32m  <Step title="Step 1: Brand Recognition Framework">[m
+     Enter the Brand name, Brand website, and alternative names/variations. The modal shows a progress bar indicating this is step 1 of 3.[m
+[32m+[m[41m    [m
+[32m+[m[32m    **Reasoning:** This step teaches the AI to recognize your brand across different contexts. Brand variations are crucial because people don't always refer to your brand consistently - misspellings, abbreviations, and alternative names all need to be captured to avoid missing relevant mentions.[m
+   </Step>[m
+[31m-  <Step title="Step 2: Brand Locality">[m
+[32m+[m[32m  <Step title="Step 2: Market Context Definition">[m
+     Select the geographic locations where your brand operates. This helps the AI understand your market presence.[m
+[32m+[m[41m    [m
+[32m+[m[32m    **Reasoning:** Geographic context prevents false signals from international competitors or unrelated brands with similar names. It also helps the AI understand your market scope and focus monitoring on regions where you actually compete.[m
+   </Step>[m
+[31m-  <Step title="Step 3: Brand Description and Competitors">[m
+[32m+[m[32m  <Step title="Step 3: Positioning">[m
+     Complete the final step by providing:[m
+     - What your brand does[m
+     - What you're known for[m
+     - Add your main competitors[m
+[32m+[m[41m    [m
+[32m+[m[32m    **Reasoning:** This information helps the AI understand your brand's position and competitive landscape. It enables the system to distinguish between your brand mentions and competitor activity, and generates relevant monitoring suggestions aligned with your business model.[m
+   </Step>[m
+[31m-  <Step title="Review Auto-Generated Suggestions">[m
+[32m+[m[32m  <Step title="Review Monitoring Framework">[m
+     After completing brand creation, you'll see auto-generated topics and prompts based on your brand information. You can accept, decline, or modify these suggestions.[m
+[32m+[m[41m    [m
+[32m+[m[32m    **Reasoning:** These suggestions aren't random - they're generated based on your brand description and competitive landscape. Your choices here define what conversations BrandRadar will track and analyze, shaping your entire monitoring approach.[m
+   </Step>[m
+   <Step title="Brand Appears in Dashboard">[m
+     After completing the onboarding, your new brand appears in the dashboard with View and Manage buttons for quick navigation.[m
+[32m+[m[41m    [m
+[32m+[m[32m    **Reasoning:** The dashboard becomes your command center, showing how this brand performs relative to others in your portfolio and providing quick access to insights.[m
+   </Step>[m
+ </Steps>[m
+ [m
+ <Note>[m
+[31m-**Brand Cards:** Each brand card displays key information including logo, description, visibility score gauge, prompt count, and last update date. Use the View and Manage buttons for quick access to brand details.[m
+[32m+[m[32m**Brand Cards:** Each brand card displays key information including logo, description, visibility score gauge, prompt count, and last update date. The visibility score shows your brand's composite signal across AI platforms, while prompt count indicates the breadth of your monitoring approach.[m
+ </Note>[m
+ [m
+[31m-## 2.1 Editing Brand Details[m
+[32m+[m[32m## 2.1 Brand Detail Configuration[m
+ [m
+ Click the **Data builder** icon (connected nodes symbol) in t

@@ -15,15 +15,18 @@
         "pages": [
           "index",
           "quickstart",
-          "account-setup"
+          "account-setup",
+          "platform/create-topics"
         ]
       },
       {
         "group": "Platform Basics",
         "pages": [
-          "platform/create-topics",
+          "platform/data-builder-overview",
           "platform/navigation",
-          "platform/understanding-data"
+          "platform/understanding-data",
+          "platform/citation-enrichment",
+          "platform/best-practices"
         ]
       },
       {

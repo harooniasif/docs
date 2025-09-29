@@ -1,13 +1,13 @@
 ---
 title: 'Create and Add Topics/Prompts'
-description: 'Guide to prompt and topic design: understand the reasoning behind effective monitoring frameworks'
+description: 'Guide to prompt and topic creation: understand the reasoning behind effective monitoring frameworks'
 ---
 
-# Prompt and Topic Design
+# What are Prompts and Topics
 
 Topics and prompts aren't just organizational tools - they're the framework that shapes how BrandRadar monitors your brand. Unlike traditional monitoring tools that scrape everything, BrandRadar uses targeted queries (prompts) to instruct AI models to look for specific themes, then organizes those insights into organized buckets (topics).
 
-## Why Design Matters
+## Why They Matter
 
 The prompts and topics you create determine what conversations BrandRadar will track and analyze. This isn't about monitoring everything - it's about monitoring what matters to your brand. Well-designed prompts and topics provide:
 
@@ -15,6 +15,8 @@ The prompts and topics you create determine what conversations BrandRadar will t
 - **Relevant insights** that answer your specific marketing questions
 - **Competitive intelligence** that reveals market opportunities and threats
 - **Actionable data** that drives decision-making
+
+## Create New Prompts and Topics
 
 <div style={{position: 'relative', paddingBottom: 'calc(47.46527777777778% + 41px)', height: 0, width: '100%'}}>
   <iframe 
@@ -30,177 +32,6 @@ The prompts and topics you create determine what conversations BrandRadar will t
   />
 </div>
 
-## 3.1 Topic Creation
+<Warning>Low-quality data may indicate the need to refine your prompts or topics to better align with your brands industry and goals.</Warning>
 
-In **Data builder**, open the **Topics** tab. Existing topics appear grouped by categories.
-
-**Why topics matter:** Topics organize your monitoring efforts around themes that matter to your brand. They help you understand which conversations drive your brand narrative and which areas need more attention. A well-organized topic structure enables you to:
-
-- **Group related prompts** under relevant themes
-- **Track topic performance** to understand what drives brand visibility
-- **Identify gaps** where you need more monitoring coverage
-- **Align monitoring** with your marketing and business objectives
-
-Click **Add topic** in the upper right corner. A modal window asks for a **Topic name**.
-
-**Naming considerations:**
-- Choose names that reflect your priorities
-- Use consistent naming conventions for easy organization
-- Consider how topics relate to your business model and market position
-- Think about how topics will help you answer questions
-
-Enter a descriptive name and click **Create**. The new topic will appear under **Uncategorised** (or the chosen category).
-
-<Steps>
-  <Step title="Access Configuration">
-    Click the Data builder icon in the left navigation bar to access your configuration options.
-  </Step>
-  <Step title="Open Topics Tab">
-    Select the "Topics" tab from the available options to manage your topic framework.
-  </Step>
-  <Step title="Add New Topic">
-    Click "Add topic" in the upper right corner to create a new monitoring theme.
-  </Step>
-  <Step title="Name Your Topic">
-    Enter a descriptive name that reflects your priorities and monitoring goals.
-  </Step>
-  <Step title="Create Topic">
-    Click "Create" to save your new topic and add it to your monitoring framework.
-  </Step>
-</Steps>
-
-<AccordionGroup>
-  <Accordion icon="plus-circle" title="Topic Creation">
-    **Steps to Create a Topic:**
-    1. Navigate to Data builder → Topics
-    2. Click "Add topic" in the upper right corner
-    3. Enter a descriptive topic name that reflects your priorities
-    4. Choose a category that aligns with your business structure
-    5. Click "Create" to save your monitoring theme
-    
-    <Tip>Use clear, descriptive names that help you identify the topic's purpose and how it contributes to your brand monitoring goals.</Tip>
-  </Accordion>
-  
-  <Accordion icon="folder" title="Topic Organization">
-    **Organizing Topics:**
-    - Group related topics by themes (e.g., product categories, market segments)
-    - Use consistent naming conventions that reflect your business model
-    - Consider topic hierarchy and relationships to your brand
-    - Regular cleanup of unused topics to maintain focus
-    
-    <Note>Topics can be moved between categories or recategorized at any time as your priorities evolve.</Note>
-  </Accordion>
-</AccordionGroup>
-
-## 3.2 Prompt Design
-
-Prompts are the questions you ask AI models to gather data about your brand. They're not just data collection tools - they're the framework that determines what conversations BrandRadar will monitor and analyze. Well-designed prompts provide:
-
-- **Focused monitoring** that aligns with your business goals
-- **Relevant insights** that answer your specific marketing questions
-- **Competitive intelligence** that reveals market opportunities and threats
-- **Actionable data** that drives decision-making
-
-You can add prompts from the **Prompts page** or within **Data builder**.
-
-
-
-### Via the Prompts Page
-
-Click the **Prompts** icon in the navigation bar. You'll see a list of prompts, with columns for Discovered brands, Prompt score, Sentiment, and Last update.
-
-**Why prompt performance matters:**
-- **Prompt score** indicates how effectively the prompt surfaces meaningful mentions
-- **Sentiment** shows whether discussions support or undermine your brand narrative
-- **Discovered brands** reveals which competitors appear in the same conversations
-- **Last update** shows when you last received fresh intelligence
-
-Use the search bar or date picker to filter prompts. To add a new one, click **Add more prompts**; this opens the **Data builder → Prompts** section.
-
-### Via Data Builder → Prompts
-
-In the **Data builder** section, choose the **Prompts** tab. Existing prompts appear in a table with columns for:
-- **Prompt text**: The actual prompt content (your question)
-- **Associated Topic**: Which topic the prompt belongs to (theme)
-- **Status**: Current status (e.g., Completed, Running)
-- **Last Updated**: When the prompt was last processed
-- **Next Update**: When the next update is scheduled
-
-#### Features:
-
-**Filters and Search:**
-- Search by prompt text to find specific questions
-- Filter by topic to focus on particular themes
-- Control date range for analysis of specific campaigns or time periods
-
-**AI-Generated Suggestions:**
-- Click "Suggested prompts" to open a modal
-- Describe your brand's goals to receive AI-generated prompt suggestions
-- Review and add suggestions that match your needs
-
-**Prompt Creation:**
-- Click "Add Prompt" to open the creation modal
-- Select a topic from the dropdown (aligns with your themes)
-- Choose update frequency (daily, every 2 days, weekly, etc.)
-- Input your prompt text
-- Click "Save" to create the prompt
-
-The system will schedule and run the prompt at the chosen interval, providing ongoing intelligence.
-
-## Data Builder Overview
-
-The Data Builder is the configuration center for your brand's monitoring framework. It contains four main tabs that work together to create a comprehensive monitoring system:
-
-### Brand Details Tab
-- **Brand Information**: Edit brand name, website, brand variations, and operating locations
-- **Brand Descriptions**: Complete "What does your brand do?" and "What are you known for?" fields
-- **Save Changes**: Update button to store your brand configuration
-
-**Why this matters:** This tab teaches the AI to recognize your brand and understand your market context, ensuring accurate brand identification and relevant monitoring suggestions.
-
-### Competitor Details Tab
-- **Competitor List**: Table listing competitor brands with editable domain fields
-- **Add Competitors**: Enter competitor names and websites
-- **Domain Management**: Add or modify competitor domain URLs
-- **Save Changes**: Update competitor information
-
-**Why this matters:** This tab enables competitive intelligence by teaching the AI to distinguish between your brand mentions and competitor activity, providing cleaner insights about your brand's performance.
-
-### Prompts Tab
-- **Prompt Management**: Table showing all prompts with status and scheduling information
-- **Filters**: Search by prompt text, filter by topic, control date range
-- **Suggested Prompts**: AI-generated prompt suggestions based on your brand goals
-- **Add Prompt**: Create new prompts with topic assignment and frequency settings
-
-**Why this matters:** This tab is where you design your monitoring framework, creating the questions that will drive your brand intelligence and competitive insights.
-
-### Topics Tab
-- **Topic Organization**: Topics grouped under categories (e.g., Uncategorized, General)
-- **Search and Filter**: Locate topics using search bar and category filters
-- **Topic Management**: Edit or delete topics using the ... menu
-- **Add Topic**: Create new topics for prompt organization
-
-**Why this matters:** This tab organizes your monitoring efforts around themes, helping you understand which conversations drive your brand narrative and which areas need more attention.
-
-<AccordionGroup>
-  <Accordion icon="lightbulb" title="AI-Generated Suggestions">
-    **AI-Generated Prompt Ideas:**
-    - Click "Suggested prompts" in Data builder → Prompts
-    - Enter a short description of your research focus
-    - AI will propose relevant prompts based on your brand and competitive landscape
-    - Review and add suggestions that match your needs
-    
-    <Tip>Use suggested prompts as inspiration and customize them for your specific business requirements and market position.</Tip>
-  </Accordion>
-  
-  <Accordion icon="clock" title="Prompt Frequency">
-    **Setting Update Frequency:**
-    - **Daily**: For time-sensitive monitoring and crisis management
-    - **Weekly**: For regular trend analysis and competitive intelligence
-    - **Monthly**: For long-term insights and market positioning
-    - **Custom**: Set specific intervals based on your monitoring needs
-    
-    <Warning>Higher frequency prompts consume more resources and may affect your plan limits. Choose frequencies that align with your decision-making cycles.</Warning>
-  </Accordion>
-</AccordionGroup>
 
