@@ -11,30 +11,48 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
+        "group": "Welcome to BrandRadar",
         "pages": [
-          "index",
-          "quickstart",
-          "account-setup",
-          "platform/create-topics"
+          "what-is-brandradar",
+          "what-brandradar-does",
+          "features-of-brandradar"
         ]
       },
       {
-        "group": "Platform Basics",
+        "group": "Quickstart",
         "pages": [
-          "platform/data-builder-overview",
-          "platform/navigation",
-          "platform/understanding-data",
-          "platform/citation-enrichment",
-          "platform/best-practices"
+          "setup-your-brand",
+          "pick-your-prompts",
+          "brand-detail-configuration",
+          "competitor-configuration"
         ]
       },
       {
-        "group": "Customizing BrandRadar",
+        "group": "Measure your Performance",
         "pages": [
+          "brand-visibility-score",
+          "prompt-mentions-score",
+          "prompt-score",
+          "prompt-sentiment-score",
+          "keyword-score"
+        ]
+      },
+      {
+        "group": "Take Action",
+        "pages": [
+          "track-competitors",
+          "generate-ai-ready-content",
+          "export-reports-for-your-team"
+        ]
+      },
+      {
+        "group": "Additional",
+        "pages": [
+          "what-is-data-builder",
+          "understanding-citations",
           "customization/plans",
           "customization/geo-as-a-service",
-          "customization/settings"
+          "faqs"
         ]
       }
     ]
