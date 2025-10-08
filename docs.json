@@ -13,43 +13,43 @@
       {
         "group": "Welcome to BrandRadar",
         "pages": [
-          "what-is-brandradar",
-          "what-brandradar-does",
-          "features-of-brandradar"
+          "welcome/what-is-brandradar",
+          "welcome/what-brandradar-does",
+          "welcome/features-of-brandradar"
         ]
       },
       {
         "group": "Quickstart",
         "pages": [
-          "setup-your-brand",
-          "pick-your-prompts",
-          "brand-detail-configuration",
-          "competitor-configuration"
+          "quickstart/setup-your-brand",
+          "quickstart/pick-your-prompts",
+          "quickstart/brand-detail-configuration",
+          "quickstart/competitor-configuration"
         ]
       },
       {
         "group": "Measure your Performance",
         "pages": [
-          "brand-visibility-score",
-          "prompt-mentions-score",
-          "prompt-score",
-          "prompt-sentiment-score",
-          "keyword-score"
+          "measure/brand-visibility-score",
+          "measure/prompt-mentions-score",
+          "measure/prompt-score",
+          "measure/prompt-sentiment-score",
+          "measure/keyword-score"
         ]
       },
       {
         "group": "Take Action",
         "pages": [
-          "track-competitors",
-          "generate-ai-ready-content",
-          "export-reports-for-your-team"
+          "take-action/track-competitors",
+          "take-action/generate-ai-ready-content",
+          "take-action/export-reports-for-your-team"
         ]
       },
       {
         "group": "Additional",
         "pages": [
-          "what-is-data-builder",
-          "understanding-citations",
+          "additional/what-is-data-builder",
+          "additional/understanding-citations",
           "customization/plans",
           "customization/geo-as-a-service",
           "faqs"
