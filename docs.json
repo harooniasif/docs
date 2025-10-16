@@ -90,5 +90,6 @@
       "facebook": "https://www.facebook.com/BrandRadarAI",
       "linkedin": "https://www.linkedin.com/company/brand-radar-ai/"
     }
-  }
+  },
+  "noindex": false
 }
