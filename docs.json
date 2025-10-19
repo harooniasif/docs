@@ -2,6 +2,8 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "BrandRadar",
+  "title": "BrandRadar AI Documentations",
+  "description": "BrandRadar Docs is your guide to understanding and using the BrandRadar platform — learn how to track AI visibility, monitor LLM referrals, and optimize your brand performance across answer engines.",
   "colors": {
     "primary": "#6B4EFF",
     "light": "#8F6CFF",
@@ -93,3 +95,4 @@
   },
   "noindex": false
 }
+
